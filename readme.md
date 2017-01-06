@@ -6,8 +6,8 @@ miss this functionality (like i3).
 
 ## How does it work?
 
-This is really simple. This copies file from one place to another,
-but if the file contains `#include some_file` line it'll be replaced
+This is really simple. It copies file from one place to another,
+and if the file contains `#include some_file` line it'll be replaced
 with contents of `some_file`.
 
 This is not recirsive so if `some_file` has `#include` directives, they won't
