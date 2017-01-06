@@ -22,6 +22,6 @@ lacking the `include` function is to just add it myself.
 
 ## So why Racket?
 
-Because I don't know it and I like to try new things. I know that written in C
+Because I don't know it and I like to try new things. I know that written in C,
 executable would probably be like 20 times smaller and a lot faster. But it would
 require a bit more work and would be much less fun and teaching.
