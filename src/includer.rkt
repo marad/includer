@@ -13,7 +13,7 @@
 (define in-file (first args))
 (define out-file (second args))
 
-(define dir (simplify-path (build-path (string->path in-file) "..")))
+(define dir (simplify-path (build-path in-file "..")))
 
 (define input (open-input-file in-file #:mode 'text))
 
