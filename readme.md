@@ -6,7 +6,7 @@ miss this functionality (like i3).
 
 ## How does it work?
 
-This is really simple. This works like copies file from one place to another,
+This is really simple. This copies file from one place to another,
 but if the file contains `#include some_file` line it'll be replaced
 with contents of `some_file`.
 
